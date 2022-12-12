@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- Ahyoni Kromwell, Southern Illinois Univserity, Date Developed:12-1-2022 Date Tested:12-5-2022-->  
+
+
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Jewelry Xscape</title>
+    <meta name="description" content="Family owned business, abstract designs for bikes. designs for men, women, and children."> 
+    <meta name="keywords" content="family owned, designs, bikes">
+    <link rel="stylesheet.html" href="styles/main.css">
+    <link rel="main.css" href="style/main.css">
+    <div class="topnav">
+        <a href="main.html">Home</a>
+        <a href="necklace_pg.htm">Necklaces</a>
+        <a href="earring_pg.htm">Earrings</a>
+        <a href="brace & key_pg.htm">Bracelets & Keychains</a>
+        <a class="active" href="contact_pg.htm">Contact</a>
+    </div>
+  </head>
+
+<!--Form Table
+* First and Last name, Address email, Phone #, Reason for Contacting (text box), Submit and Refresh buttons, Hit submit button to responsive page -->
+<form name="myform" action="responsive_pg.htm" method="post">
+  <body>
+  <h1>Contact Us!</h1>
+    <h2>Please leave a Message for concerns or information.</h2>
+    <p>As you fill out the information below, you will automatically be a member of this website for coupons or 
+      sells that come up! Thank you!
+    </p>    
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="Address">Email Address</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="Address" name="email" placeholder="your email address...">
+          </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Country</label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="How can we help you..." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit">
+          <input type="reset"  value="Reset">
+        </div>
+      </form>
+    </div>
+    </body>
+</form>
+
+<h2>Thank you and we will get back to you as soon as possible!</h2>
+
+<style>
+ .topnav {
+    background-color: darkred;
+    overflow: hidden;
+  }
+              
+/* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+              
+/* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: lightgreen;
+      color: black;
+    }
+    
+/* Add a color to the active/current link */
+    .topnav a.active {
+      background-color:green;
+      color: white;
+    }  
+h1 {
+  color: black;
+  font: 100% Arial, Helvetica, sans-serif bold;
+}
+
+h2 {
+  color: black;
+  font: 100% Arial, Helvetica, sans-serif bold;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] , input[type=reset]{
+  background-color: darkred;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit], input[type=reset]:hover {
+  background-color: darkgreen;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+}
+
+</style>

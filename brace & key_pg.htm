@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!-- Ahyoni Kromwell, Southern Illinois Univserity, Date Developed:12-1-2022 Date Tested:12-5-2022-->  
+
+
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Jewelry Xscape</title>
+    <meta name="description" content="Family owned business, abstract designs for bikes. designs for men, women, and children."> 
+    <meta name="keywords" content="family owned, designs, bikes">
+    <link rel="main.css" href="style/main.css">
+    <div class="topnav">
+        <a href="main.html">Home</a>
+        <a href="necklace_pg.htm">Necklaces</a>
+        <a href="earring_pg.htm">Earrings</a>
+        <a class="active" href="brace & key_pg.htm">Bracelets & Keychains</a>
+        <a href="contact_pg.htm">Contact</a>
+    </div>
+  </head>
+
+<!--Table of Contents with prices as a Two-Column-->
+<div class="row">
+  <div class="column" style="background-color:none;">
+    <h2>Types of Keychains</h2>
+    <p>Here is a list of different styles and prices</p>
+    <ul>
+      <li>Slip Knot: $20</li>
+      <li>Fire Fox: $20</li>
+      <li>Whippling Stitch: $20</li>
+      <li>Fish Tail: $20</li>
+      <li>Mermaid Tail: $25</li>
+      <li>Box Knot: $20</li>
+    </ul>
+  </div>
+  <div class="column" style="background-color:none;">
+    <h2>Types of Bracelets</h2>
+    <p>Here is a list of different styles and prices</p>
+    <ul>
+      <li>Blue & White: $25</li>
+      <li>White & Maroon: $25</li>
+      <li>All black with crowns: $25</li>
+      <li>Black, Blue & Red: $25</li>
+      <li>Black, Blue & Silver: $20</li>
+      <li>Custom-made: Vary</li>
+    </ul>
+  </div>
+</div>
+
+<!--Four pictures & style name: List top to bottom with info located bottom of pic-->
+<div class="row">
+  <div class="column">
+    <img src="images/Brace1.jpg" alt="Jewelry" style="width: 270px; height: 270px;">
+  </div>
+  <div class="column">
+    <img src="images/Key1.jpg" alt="Jewelry" style="width: 270px; height: 270px;">
+  </div>
+  <div class="column">
+    <img src="images/Brace3.jpg" alt="Jewelry" style="width: 270px; height: 270px;">
+  </div>
+</div>
+
+<div class="row">
+ <div class="column">
+    <img src="images/Key2.jpg" alt="Jewelry" style="width: 270px; height: 270px;">
+  </div>
+  <div class="column">
+    <img src="images/Brace2.jpg" alt="Jewelry" style="width: 270px; height: 270px;">
+  </div>
+  <div class="column">
+    <img src="images/Key4.jpg" alt="Jewelry" style="width: 270px; height: 270px;">
+  </div>
+</div>
+</html>
+
+<style>
+ .topnav {
+    background-color: darkred;
+    overflow: hidden;
+  }
+              
+/* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+              
+/* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: lightgreen;
+      color: black;
+    }
+    
+/* Add a color to the active/current link */
+    .topnav a.active {
+      background-color:green;
+      color: white;
+    }  
+h2 {
+  color: white;
+  font: 100% Arial, Helvetica, sans-serif bold;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font: 100% Arial, Helvetica, sans-serif bold;
+  text-align: center;
+}
+
+  body {
+    font: 100% Arial, Helvetica, sans-serif;
+    width: auto;
+    margin: auto;
+    padding: auto;
+    background-color: black;
+    color: white;
+  }
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+  div.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
+  }
+
+/* Clear floats after image containers */
+  div .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/*Sets up the pictures */
+.row {
+  display: flex;
+}
+/*Sets up the pictures */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  float: left;
+} 
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Rules for the 2-column*/
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+  color: black;
+}
+
+ul li {
+  border: 2px solid #ddd; /* Add a thin border to each list item */
+  margin-top: -1px; /* Prevent double borders */
+  padding: 12px; /* Add some padding */
+  text-align: center;
+  color: white;
+}
+</style>

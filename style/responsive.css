@@ -1,0 +1,69 @@
+.topnav {
+    background-color: darkred;
+    overflow: hidden;
+  }
+              
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+              
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color:green;
+    color: white;
+} 
+body {
+    font: 100% Arial, Helvetica, sans-serif;
+    width: auto;
+    margin: auto;
+    padding: auto;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+h1 {
+    color: antiquewhite;
+    font: 100% Arial, Helvetica, sans-serif bold;
+    text-align: center;
+}
+h2 {
+  color: white;
+  font: 100% Arial, Helvetica, sans-serif bold;
+  text-align: center;
+  
+}
+
+p {
+  color: white;
+  font: 100% Arial, Helvetica, sans-serif bold;
+  text-align: center;
+}
+ul li {
+  border: 2px solid #ddd; /* Add a thin border to each list item */
+  margin-top: -1px; /* Prevent double borders */
+  padding: 12px; /* Add some padding */
+  list-style-type: none; /* Remove bullets */
+  text-align: center;
+  color: white;
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] , input[type=reset]{
+  background-color: darkred;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
